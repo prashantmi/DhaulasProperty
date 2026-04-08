@@ -1,0 +1,146 @@
+[
+  {
+    "page": 1,
+    "chars": 647,
+    "non_ws": 520,
+    "stderr": ""
+  },
+  {
+    "page": 2,
+    "chars": 26,
+    "non_ws": 15,
+    "stderr": ""
+  },
+  {
+    "page": 3,
+    "chars": 1358,
+    "non_ws": 1141,
+    "stderr": ""
+  },
+  {
+    "page": 4,
+    "chars": 42,
+    "non_ws": 26,
+    "stderr": ""
+  },
+  {
+    "page": 5,
+    "chars": 1345,
+    "non_ws": 1116,
+    "stderr": ""
+  },
+  {
+    "page": 6,
+    "chars": 4,
+    "non_ws": 3,
+    "stderr": ""
+  },
+  {
+    "page": 7,
+    "chars": 1389,
+    "non_ws": 1098,
+    "stderr": "Image too small to scale!! (2x48 vs min width of 3)\nLine cannot be recognized!!\nImage too small to scale!! (1x36 vs min width of 3)\nLine cannot be recognized!!\nImage too small to scale!! (2x48 vs min "
+  },
+  {
+    "page": 8,
+    "chars": 7,
+    "non_ws": 5,
+    "stderr": ""
+  },
+  {
+    "page": 9,
+    "chars": 543,
+    "non_ws": 462,
+    "stderr": ""
+  },
+  {
+    "page": 10,
+    "chars": 0,
+    "non_ws": 0,
+    "stderr": ""
+  },
+  {
+    "page": 11,
+    "chars": 1471,
+    "non_ws": 1157,
+    "stderr": "Image too small to scale!! (2x36 vs min width of 3)\nLine cannot be recognized!!"
+  },
+  {
+    "page": 12,
+    "chars": 690,
+    "non_ws": 573,
+    "stderr": ""
+  },
+  {
+    "page": 13,
+    "chars": 1576,
+    "non_ws": 1290,
+    "stderr": ""
+  },
+  {
+    "page": 14,
+    "chars": 1,
+    "non_ws": 1,
+    "stderr": ""
+  },
+  {
+    "page": 15,
+    "chars": 1993,
+    "non_ws": 1615,
+    "stderr": ""
+  },
+  {
+    "page": 16,
+    "chars": 1228,
+    "non_ws": 1002,
+    "stderr": "Error in pixScaleAreaMap: pixd too small\nError in pixClone: pixs not defined\nError in pixCopyText: pixd not defined\nError in pixCopyInputFormat: pixd not defined\nScaling pix of size 12, 1905 by factor"
+  },
+  {
+    "page": 17,
+    "chars": 2023,
+    "non_ws": 1632,
+    "stderr": ""
+  },
+  {
+    "page": 18,
+    "chars": 304,
+    "non_ws": 240,
+    "stderr": ""
+  },
+  {
+    "page": 19,
+    "chars": 1297,
+    "non_ws": 1066,
+    "stderr": ""
+  },
+  {
+    "page": 20,
+    "chars": 45,
+    "non_ws": 32,
+    "stderr": ""
+  },
+  {
+    "page": 21,
+    "chars": 669,
+    "non_ws": 548,
+    "stderr": ""
+  },
+  {
+    "page": 22,
+    "chars": 172,
+    "non_ws": 135,
+    "stderr": ""
+  },
+  {
+    "page": 23,
+    "chars": 588,
+    "non_ws": 477,
+    "stderr": ""
+  },
+  {
+    "page": 24,
+    "chars": 208,
+    "non_ws": 157,
+    "stderr": ""
+  }
+]
