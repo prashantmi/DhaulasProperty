@@ -14,6 +14,7 @@ Method used: page rendering + OCR + visual verification of substantive pages
   - **वर्ष / Year**: 2023
   - **जिल्द / Jild**: 5,266
   - **Pages entered in register**: 377 to 400
+  - **Scanned PDF page count**: 24 pages
 - Deed/article type: **Sale (Immovable)** / **Sale (Residential Plot)** / **Article 23 Conveyance**
 - Consideration / sale value: **₹70,00,000**
 - Market value: **₹70,00,000**
@@ -170,6 +171,12 @@ The deed says the seller accepted receipt of the entire consideration before the
 - North: भूमि अन्य
 - South: 25 फुट चौड़ा रास्ता
 
+Boundary caution:
+
+- The deed text describes the **West** boundary as `भूमि अन्य`.
+- The annexed map on page 23, however, visually shows a **30'-0" Wide Road** on the west side of the plotted layout.
+- This should be treated as a map-vs-text discrepancy requiring physical demarcation and title-chain verification before purchase.
+
 ## Annexed Site Plan / Manchitra
 
 The annexed map on the last substantive page shows:
@@ -199,6 +206,7 @@ Practical interpretation for your purchase planning:
   - a **600 sq. yd.** portion, and
   - the two remaining portions of **262.06 sq. yd.** and **271.08 sq. yd.**
 - The two remaining plotted areas together equal **533.14 sq. yd.**, exactly the balance you described.
+- The map also shows a **30'-0" Wide Road** along the west side and a **25'-0" Wide Road** along the south side, which is useful for access analysis, but it does not perfectly match the deed text boundary recital for the west side.
 - The map therefore supports your intended purchase description, but you should still cross-check:
   - the later deed by which the 600 sq. yd. portion was sold,
   - mutation entries after that sale,
@@ -339,6 +347,12 @@ The page 3 location strings were later clarified from user-provided interpretati
 
 - **Village / Location For Index:** Dhaulas 2.B-1 From Nanda Chowki to Aamwala Road until the end of Dhaulas boundary
 - **Village / Location / Road Selected for Circle Rate List:** Dhaulas 2.B-1 From Nanda Chowki to Aamwala Road until the end of Dhaulas boundary
+
+Note on page counts:
+
+- The original scanned PDF contains **24 pages**.
+- The online public data entry summary on page 3 shows **Page: 28**.
+- This difference is likely a system-side count rather than a missing-page issue in the supplied PDF, but it is worth remembering if you later compare against registrar-office copies.
 
 ### Page 4
 
