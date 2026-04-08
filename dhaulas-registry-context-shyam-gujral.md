@@ -40,7 +40,7 @@ Method used: page rendering + OCR + visual verification of substantive pages
 - The deed states the land is:
   - outside municipal / nagar panchayat limits,
   - more than 8 km from Main Chakrata Road,
-  - on the Dhaulas side of the Nanda ki Chowki-Ambala road stretch,
+  - indexed / circle-rate classified under: **Dhaulas 2.B-1 From Nanda Chowki to Aamwala Road until the end of Dhaulas boundary**,
   - free from mortgage, bank charge, court attachment, and other encumbrances.
 - Seller states that he had purchased this land earlier from **Randhir Singh Verma s/o Suchet Singh Verma**, through an earlier registered sale deed:
   - **क्रमांक / Regn. no.**: 1635
@@ -315,6 +315,8 @@ Visible data:
 - Mutation Office: तहसील विकासनगर
 - Deed / Article type: Sale (Immovable)
 - Sub-deed / Sub-article: Sale (Residential Plot)
+- Village / Location for Index: **Dhaulas 2.B-1 From Nanda Chowki to Aamwala Road until the end of Dhaulas boundary**
+- Village / Location / Road selected for Circle Rate List: **Dhaulas 2.B-1 From Nanda Chowki to Aamwala Road until the end of Dhaulas boundary**
 - Khasra: 228, 229
 - Area: 947.8000 sq. m.
 - Latitude: 30.3890720000
@@ -333,7 +335,10 @@ Visible data:
 - Registration fee payment line: Cash ₹25,000
 - Stamp payment line: e-Stamp ₹3,50,500, date 10-Jul-2023
 
-The exact Hindi “Village / Location for Index” string is faint in the scan, but it clearly refers to the Dhaulas stretch around **Nanda ki Chowki to Ambala road up to the Dhaulas boundary**.
+The page 3 location strings were later clarified from user-provided interpretation as:
+
+- **Village / Location For Index:** Dhaulas 2.B-1 From Nanda Chowki to Aamwala Road until the end of Dhaulas boundary
+- **Village / Location / Road Selected for Circle Rate List:** Dhaulas 2.B-1 From Nanda Chowki to Aamwala Road until the end of Dhaulas boundary
 
 ### Page 4
 
@@ -639,13 +644,10 @@ These are the only material fields that remain low-confidence after OCR plus vis
 1. **e-Stamp certificate number** on page 11  
    It now appears to read `IN-UK62527425290074V`, but a pen stroke crosses the line, so recheck from the original if you need exact online e-stamp verification.
 
-2. **Exact “Village / Location for Index” and “Village / Location / Road Selected for Circle Rate List” strings** on page 3  
-   The main sense is visible, but the exact typed Hindi line is faint.
-
-3. **Exact “54 meters” recital on page 17**  
+2. **Exact “54 meters” recital on page 17**  
    The line appears to say the land is more than 54 meters from the Dhaulas boundary on the Nanda ki Chowki-Aamwala road stretch, but the scanned line is slightly faint and should be rechecked if you need precise quoting.
 
-4. **Secondary reverse-side ID details and fine-print on non-substantive pages**  
+3. **Secondary reverse-side ID details and fine-print on non-substantive pages**  
    These include the back side of the driving licence, fine-print security text, and backside seal pages. They do not affect the core transaction record but could be re-read from a sharper scan if desired.
 
 If you provide corrections for any of the above, this markdown can be revised into a cleaner final reference version.
