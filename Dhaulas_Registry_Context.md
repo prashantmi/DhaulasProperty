@@ -5,7 +5,7 @@
 **Jild (Book):** 5,266 | Pages: 377 to 400  
 **Registration Date:** 10 July 2023 (between 3:00 PM and 4:00 PM)  
 **Registration Office:** Sub-Registrar (Dwitiya / II), Vikasnagar, Dehradun  
-**Online Reference ID:** UKPDE20230451 7579  
+**Online Reference ID:** UKPDE2023045217579  
 **Total Pages in Registry:** 24 (original document)
 
 ---
@@ -36,8 +36,8 @@ The total 1,133.14 sq.yd plot is divided into **three portions**:
 |---|---|---|---|
 | **Portion A** (West, along 30' road) | 5,400.00 | 600.00 | Already sold |
 | **Portion B** (Upper-East) | 2,358.57 | 262.06 | Available for purchase |
-| **Portion C** (Lower-East) | ~2,439.72 | 271.08 | Available for purchase |
-| **Total** | ~10,198.29 | **1,133.14** | — |
+| **Portion C** (Lower-East) | 2,439.78 | 271.08 | Available for purchase |
+| **Total** | 10,198.35 | **1,133.14** | — |
 
 ---
 
@@ -208,10 +208,10 @@ The seller acknowledges receipt of the full amount. No balance remains between p
 |---|---|
 | **Stamp Duty** | 3,50,500.00 (via e-Stamp) |
 | **Registration Fee (Nibandhan Shulk)** | 25,000.00 (Cash) |
-| **Representative Fee (Pratinidhi Shulk)** | 100.00 |
-| **Electronic Gosevi Fee** | 240.00 |
+| **Copy Fee (Pratilipi Shulk / प्रतिलिपि शुल्क)** | 100.00 |
+| **Electronic Processing Fee (इलेक्ट्रानिक गोसेवी शुल्क)** | 240.00 |
 | **Total Fees (Kul Yog)** | **25,340.00** |
-| **Shabd Tapdhan** | 1,000 |
+| **Word Count (Shabd Lagbhag / शब्द लगभग)** | ~1,000 |
 | **Bar Association Library Fee** | 200.00 |
 
 ---
@@ -221,11 +221,11 @@ The seller acknowledges receipt of the full amount. No balance remains between p
 | Field | Details |
 |---|---|
 | **Type** | India Non-Judicial, Government of Uttarakhand, e-Stamp |
-| **Certificate No.** | IN-UK62527______74V |
+| **Certificate No.** | IN-UK62527425290074V |
 | **JD Number** | 0039938231 |
 | **Issued Date & Time** | 10-Jul-2023, 03:21 PM |
 | **Account Reference** | NONACC (SV) uk1210004 / VIKAS NAGAR / UK-DH |
-| **Unique Doc. Reference** | SUBIN-UKUK1210004311550536823568V |
+| **Unique Doc. Reference** | SUBIN-UKUK121000431155053623568V |
 | **Purchased By** | SHYAM KUMAR GUJRAL |
 | **Description of Document** | Article 23 Conveyance |
 | **Property Description** | MAUZA DHAULAS, VIKASNAGAR, DEHRADUN |
@@ -238,7 +238,7 @@ The seller acknowledges receipt of the full amount. No balance remains between p
 | **Verification Stamp** | "Verified and Locked — Sub-Registrar-II, Vikasnagar" (Page 12) |
 | **Verification Website** | www.shcilestamp.com |
 
-> **NOTE:** The e-Stamp Certificate Number has some characters partially obscured by the official stamp. The full number needs manual verification from the original. Marked as: IN-UK62527______74V
+> **NOTE:** The e-Stamp Certificate Number has a pen stroke crossing over the line. The reading `IN-UK62527425290074V` appears correct after careful review but should be rechecked against the original if you need exact online e-stamp verification at www.shcilestamp.com.
 
 ---
 
@@ -249,6 +249,7 @@ The seller acknowledges receipt of the full amount. No balance remains between p
 **Preamble (Page 13):**
 - The seller confirms the land is free from all encumbrances — no liens from courts, banks, cooperative societies, financial institutions, bonds, debts, attachments, foreclosures. The land is free for clean transfer.
 - No prior sale agreements exist with any other person that could obstruct the transfer.
+- The seller sold the land **voluntarily and without pressure, inducement, or coercion** (बिना किसी बहकावे, सिखलावे, बिना किसी अनुचित दबाव के).
 
 **Clause 1 — Payment (Page 15):**
 - Full payment of Rs. 70,00,000/- received via RTGS, cheque, and TDS (see Section 5.3 above).
@@ -286,12 +287,12 @@ The seller acknowledges receipt of the full amount. No balance remains between p
 | 5 | **Circle rate**: Rs. 7,000/- per sq.m (fixed by Collector, Dehradun). Road width is between 5m and 12m, so **5% additional increase** applies. Total market value = Rs. 70,00,000/-. Stamp duty at 5% = Rs. 3,50,500/-. |
 | 6 | The land is **not covered under Gramin Ceiling** (Section 6(2)) and is **not tea/garden (Chai Bagan) land**. |
 | 7 | The land is **not** river (Nadi), forest (Dang), barren (Banjar), religious trust (Dharmik Sansthan), or institutional (Trust) land. |
-| 8 | The land is **not related to Golden Forest, POSCO Ltd., or any subsidiary company**. Free from all disputes (Vaad-Vivaad se Purnataya Mukt). |
+| 8 | The land is **not related to Golden Forest, PACL (Pearls Agrotech Corporation Limited), or any allied/subsidiary company**. Free from all disputes (Vaad-Vivaad se Purnataya Mukt). |
 | 9 | The land is sold with **all rights and easements (Sarvadhikar, Sukhadhikar)**. |
 | 10 | The land is **not** river, forest, barren, or ravine (Khala) land. |
 | 11 | The land was in Uttarakhand before 2003. The buyer/family can purchase under: **UP Zamindari Vinash Adhiniyam 1950** (Anukulan & Rupantaran Adesh 2001), **amended Act 2003**, and **amended Act 2007** — fully competent to purchase. |
 | 12 | **Neither buyer nor seller is a foreign citizen** or living abroad. Neither is from Pakistan, Bangladesh, Sri Lanka, Afghanistan, China, Iran, Nepal, or Bhutan and not of foreign origin residing in India. |
-| 13 | The land is **not within TDS/HDC/DC displaced area**. |
+| 13 | The land is **not within THDC (Tehri Hydro Development Corporation) displaced area** (टी0एच0डी0सी0 विस्थापित क्षेत्र). |
 | 14 | **RERA not applicable** — This is an individual private property sale, not a group housing / mixed development / plotted development project. Not covered under Real Estate Regulation & Development Act 2016 / Uttarakhand RERA Rules 2017. No RERA registration required. The seller is not violating any RERA provisions. |
 | 15 | **GPS Coordinates** of the land: Latitude **30.389072**, Longitude **78.008637**. |
 
@@ -333,26 +334,45 @@ The map divides the total 1,133.14 sq.yd plot into three distinct portions:
 |---|---|
 | **Area** | 2,358.57 sq.ft / 262.06 sq.yd |
 | **Position** | Upper-right (North-East) corner of the plot |
-| **Visible Dimensions** | ~21'-10" along one side; ~24'-4" along the north-east edge; ~1'-2" marking at boundary with Portion A |
+| **Visible Dimensions** | 21'-10" along one side; 24'-4" along the north-east edge; 17'-2" along one edge; 1'-2" marking at boundary with Portion A |
 
 #### Portion C — Lower-East Section (Remaining: 271.08 sq.yd)
 | Field | Details |
 |---|---|
-| **Area** | ~2,439.72 sq.ft / 271.08 sq.yd |
+| **Area** | 2,439.78 sq.ft / 271.08 sq.yd |
 | **Position** | Lower-right (South-East) corner of the plot |
-| **Visible Dimensions** | ~67'-3" along the east side; ~53'-1" along a side; ~24'-10" along the south-east edge; ~31'-3" near the south/road side; ~17' along one edge |
+| **Visible Dimensions** | 67'-3" along the east side; 53'-1" along a side; 24'-10" along the south-east edge; 31'-3" near the south/road side; 17'-11" along one edge |
 
-### 8.4 Overall Plot Dimensions (Approximate, from Map)
+### 8.4 Overall Plot Dimensions (from Map)
 
 | Measurement | Value |
 |---|---|
 | **North frontage (total top width)** | 68'-8" |
 | **South frontage (total bottom width, along 25' road)** | 68'-3" |
 | **West side (along 30' road)** | Depth varies, internal line shows 75'-3" |
-| **East side** | ~67'-3" (visible, Portion C east edge) |
+| **East side** | 67'-3" (Portion C east edge) |
 | **Internal division line** | Runs roughly north-south separating Portion A from Portions B+C |
 
-> **NOTE:** Some dimensions on the map are small and may be partially illegible. The exact measurements of each sub-portion boundary should be verified against the original physical map. See Section 12 for flagged items.
+### 8.5 Complete List of All Visible Dimensional Markings on Map
+
+| Dimension | Location / Context |
+|---|---|
+| 25'-0" | Wide Road (South boundary) |
+| 30'-0" | Wide Road (West boundary) |
+| 68'-8" | North frontage (total top width) |
+| 68'-3" | South frontage (total bottom width along 25' road) |
+| 75'-3" | Internal east boundary of Portion A (depth) |
+| 31'-3" | Near the south side / road side |
+| 17'-2" | Portion B edge dimension |
+| 17'-11" | Portion C edge dimension |
+| 67'-3" | East side length (Portion C) |
+| 21'-10" | Portion B side dimension |
+| 24'-4" | North-east edge (Portion B) |
+| 24'-10" | South-east edge (Portion C) |
+| 53'-1" | Diagonal or angled side (Portion C) |
+| 1'-2" | Boundary marking between Portion A and Portions B+C |
+
+> **NOTE:** Some dimension markings on the map are small. While the above readings were cross-verified, the exact measurements should be confirmed against the original physical map, especially for Portions B and C which are relevant to your purchase.
 
 ---
 
@@ -427,7 +447,7 @@ The registering officer confirmed: "प्रतिज्ञ एवं साक
 
 | Field | Value |
 |---|---|
-| **Document ID** | UKPDE20230451 7579 |
+| **Document ID** | UKPDE2023045217579 |
 | **District** | Dehradun |
 | **SRO** | Sub-Registrar Office |
 | **Entry Start Date** | 16 Feb 2023 |
@@ -464,16 +484,22 @@ The registering officer confirmed: "प्रतिज्ञ एवं साक
 | **Property > 250 sq.m in other UK location** | NA |
 | **Property in UK before 12-09-2003** | NA |
 | **Cersai Nill Report** | Available (View Cersai Report) |
-| **NEC / 12 Years Khatoni Details** | Available |
+| **NEC / 12 Years Khatoni Details** | Available (View NEC Report) |
+| **Permission Report** | Available (View Permission Report) |
+| **Uploaded Khatoni for Seller** | Available (View Seller Khatoni) |
+| **Uploaded Khatoni for Purchaser** | Available (View Purchaser Khatoni) |
 | **Transaction Details** | NA |
 | **Deed Writer / Advocate** | A K SAILWAL |
 
-### 11.3 Village/Location Index Reference (Page 3)
+### 11.3 Village/Location & Circle Rate Classification (Page 3)
 
-> **PARTIALLY UNCLEAR:** The Village/Location For Index field reads approximately:  
-> "उनीवाल →B-1 नंदा की चौकी में आमावाला मार्ग तक प्रीतम की नीला बावड़ी तक"  
-> (Uniwal → B-1, Nanda ki Chowki via Aamawala Marg up to Pritam ki Neela Bawdi)  
-> This text is partially unclear and needs **manual verification** from the original.
+Both the "Village/Location For Index" and "Village/Location/Road Selected for Circle Rate List" fields read:
+
+> **Dhaulas 2.B-1 — From Nanda Chowki to Aamwala Road until the end of Dhaulas boundary**
+
+This is the circle-rate zone classification under which this land falls. The Hindi text reads approximately: "धौलास 2.B-1 नंदा की चौकी में आमवाला मार्ग तक धौलास की सीमा समाप्ति तक"
+
+> **NOTE:** While the overall interpretation is clear, some individual characters in this line were partially overlapping in the scanned image. The zone classification should match the Sub-Registrar's circle-rate table for verification.
 
 ---
 
@@ -487,14 +513,14 @@ The following items from the registry are partially illegible, unclear, or have 
 |---|---|---|---|
 | 1 | **23** | **Map Dimensions** | Several dimension markings on the map are small and partially illegible. The exact measurements for each sub-portion boundary (especially Portions B and C) should be verified against the original physical map. |
 | 2 | **19 vs 23** | **West Boundary Discrepancy** | The deed text (Page 19) lists the West boundary as "Bhumi Anya" (Other's Land), but the map (Page 23) clearly shows a **30'-0" Wide Road** on the west side. This needs clarification — is the 30' road the boundary of the overall plot, or only of Portion A? |
-| 3 | **11** | **E-Stamp Certificate Number** | The full certificate number is partially obscured by the official stamp overlay. Reads as: IN-UK62527______74V. The obscured digits (approximately 4-5 characters) need verification. |
+| 3 | **11** | **E-Stamp Certificate Number** | A pen stroke crosses over the certificate number line. Best reading: `IN-UK62527425290074V`. Should be rechecked against the original for exact online verification at shcilestamp.com. |
 
 ### 12.2 Minor Items
 
 | # | Page | Item | Issue |
 |---|---|---|---|
-| 4 | **3** | **Village/Location Index Path** | The boundary/location reference text is partially unclear: "उनीवाल →B-1 नंदा की चौकी में आमावाला मार्ग तक प्रीतम की नीला..." — needs verification of exact wording. |
-| 5 | **23** | **Portion C Area (sq.ft)** | The sq.ft figure for Portion C (271.08 sq.yd) appears in the map but is partially covered/small. By calculation it should be ~2,439.72 sq.ft. Verify from original. |
+| 4 | **3** | **Village/Location Index Path** | Interpreted as "Dhaulas 2.B-1 From Nanda Chowki to Aamwala Road until end of Dhaulas boundary". Some individual characters were overlapping in the scan — verify exact Hindi wording if needed. |
+| 5 | **23** | **Portion C Area (sq.ft)** | The sq.ft figure for Portion C (271.08 sq.yd) reads as 2,439.78 sq.ft on the map. Mathematical conversion gives 2,439.72 sq.ft — minor rounding difference from surveyor's calculation. |
 | 6 | **2, 4, 8, 10, 14, 20** | **Official Stamps on Blank Pages** | Multiple blank/back pages carry circular official stamps. The stamps appear to read "उप-निबंधक विकासनगर द्वितीय" (Sub-Registrar Vikasnagar II) but the text within the stamps is faded/partially illegible. |
 | 7 | **5** | **Vishal Kumar's Address** | The witness's address reads "डांडीपुर मोहल्ला" but some characters may be slightly different (possibly "शाहीपुर" was mentioned somewhere). Verify exact spelling. |
 | 8 | **23** | **Narrow strip on east side** | A narrow strip labeled "भूमि अन्य" runs along the eastern edge of the map. It's unclear whether this is a pathway, setback, or simply neighboring land. |
@@ -510,14 +536,16 @@ Based on the information extracted from this registry and your stated intent:
 - The map (Page 23) shows the plot divided into three sub-portions.
 - **Portion A (600 sq.yd)** on the western side (along the 30' road) has **already been sold** by Shyam Kumar Gujral to a third party.
 
+> **IMPORTANT CAVEAT:** This PDF is the 10-Jul-2023 deed for the **full 1,133.14 sq.yd** from Rajesh to Shyam. This PDF does **NOT** contain the later separate sale deed by which the **600 sq.yd** portion was sold onward. The annexed site plan shows the subdivision, but proof of the 600 sq.yd resale requires the later sale deed, mutation records, and khatauni trail.
+
 ### Your Intended Purchase
 - **Buyers:** Prashant Mishra, Manasvi Baxi, and Prashant Dwivedi
 - **Current Owner / Seller:** Shyam Kumar Gujral
 - **Agent:** Rajesh Kumar Belwal (the original seller in this registry, now acting as agent)
 - **Portions to Purchase:**
   - **Portion B:** 262.06 sq.yd (2,358.57 sq.ft) — Upper-East section
-  - **Portion C:** 271.08 sq.yd (~2,439.72 sq.ft) — Lower-East section
-  - **Combined:** 533.14 sq.yd (~4,798 sq.ft)
+  - **Portion C:** 271.08 sq.yd (2,439.78 sq.ft) — Lower-East section
+  - **Combined:** 533.14 sq.yd (4,798.35 sq.ft)
 
 ### Key Points for Due Diligence
 1. Verify the **600 sq.yd sale deed** — who purchased Portion A, when, and confirm that portion is cleanly separated.
@@ -552,7 +580,7 @@ Based on the information extracted from this registry and your stated intent:
 | 16 | **Registration Authentication (Page):** Bahi/Registration numbers, fees summary, presentation by buyer, Sub-Registrar endorsement, thumb impression, witness identification |
 | 17 | **Sale Deed — Vanchit Vivaran (Page 4):** Clause 6 + Required Declarations 1-12 (location, caste, land condition, circle rate, ceiling, RERA, foreign status, etc.) |
 | 18 | **Photo & Fingerprint ID (Page):** Bahi 1, Reg. No. 5812/2023 — Photos, signatures, and thumb impressions of all 4 parties; Registrar's attestation |
-| 19 | **Sale Deed — Land Description (Page 5):** Declarations 13-15 (TDS area, RERA, GPS), Detailed land description (Khasra-wise area, boundaries), closing statement |
+| 19 | **Sale Deed — Land Description (Page 5):** Declarations 13-15 (THDC displaced area, RERA, GPS), Detailed land description (Khasra-wise area, boundaries), closing statement |
 | 20 | Blank back page with official registrar stamp |
 | 21 | **Fingerprints — Section 32-A (Page 6):** All 10 fingerprints (right + left hands) of Seller and Buyer; Witness details with signatures and IDs; Deed Writer attestation |
 | 22 | **Registration Entry (Final — First Instance):** Bahi 1, Jild 5266, Pages 377-400, Kramank 5812, dated 10 Jul 2023; Registrar stamp and signature |
@@ -569,10 +597,10 @@ Based on the information extracted from this registry and your stated intent:
 | **Bahi Number** | 1 |
 | **Jild** | 5,266 |
 | **Pages** | 377–400 |
-| **Online ID (UKPDE)** | UKPDE20230451 7579 |
-| **E-Stamp Certificate** | IN-UK62527______74V |
+| **Online ID (UKPDE)** | UKPDE2023045217579 |
+| **E-Stamp Certificate** | IN-UK62527425290074V |
 | **E-Stamp JD Number** | 0039938231 |
-| **E-Stamp Unique Doc Ref** | SUBIN-UKUK1210004311550536823568V |
+| **E-Stamp Unique Doc Ref** | SUBIN-UKUK121000431155053623568V |
 | **Seller PAN** | AJHPB5778N |
 | **Buyer PAN** | ABIPG9421C |
 | **Witness 1 Aadhaar** | 9697 6666 1774 |
@@ -585,6 +613,27 @@ Based on the information extracted from this registry and your stated intent:
 
 ---
 
+## 16. Numeric Audit — Key Values Cross-Verified
+
+The following key numeric details were visually verified against the scanned PDF page images and cross-checked between documents:
+
+| Value | Source Page | Verified Reading |
+|---|---|---|
+| Shyam Kumar Gujral DOB | 7 | 27-02-1959 |
+| E-Stamp Certificate No. | 11 | IN-UK62527425290074V (pen stroke crosses line — recheck from original) |
+| E-Stamp JD Code | 11 | JD 0039938231 |
+| RTGS Reference | 15 | RTGS-BDBLR52023071000001111 |
+| Total Registration Fees | 16 | Rs. 25,000 + Rs. 100 + Rs. 240 = Rs. 25,340 |
+| Distance from Dhaulas boundary | 17 | 51 meters (not 54) |
+| Clause 13 reference | 19 | टी0एच0डी0सी0 (THDC) विस्थापित क्षेत्र |
+| Portion A area | 23 | 5,400.00 sq.ft / 600.00 sq.yd |
+| Portion B area | 23 | 2,358.57 sq.ft / 262.06 sq.yd |
+| Portion C area | 23 | 2,439.78 sq.ft / 271.08 sq.yd |
+| Area checksum | — | 600.00 + 262.06 + 271.08 = **1,133.14 sq.yd** (matches total) |
+
+---
+
 *Document created on: 8 April 2026*  
+*Last reconciled: 8 April 2026 (cross-verified against independent GPT extraction)*  
 *Source: Scanned registry PDF — "Rajesh Sir To Shyam K Gujral 5812-23.pdf" (24 pages)*  
 *Prepared for: Prashant Mishra — for reference in planned land purchase at Dhaulas, Dehradun*

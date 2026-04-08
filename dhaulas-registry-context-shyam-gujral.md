@@ -160,7 +160,7 @@ The deed says the seller accepted receipt of the entire consideration before the
 - **Coordinates**: Latitude 30.389072, Longitude 78.008637
 - **Road statement in the deed**:
   - Main Chakrata Road distance: more than 8 km
-  - The recital on page 17 also appears to say the land is more than **54 meters** from the Dhaulas boundary on the Nanda ki Chowki-Aamwala road stretch; this line is slightly faint and should be rechecked if you need exact quoting.
+  - The recital on page 17 states the land is more than **51 meters** from the Dhaulas boundary on the Nanda ki Chowki-Aamwala road stretch.
   - Circle-rate note: the deed says the land had a road width of more than 5 m and less than 12 m, so 5% extra valuation was applied.
 
 ### Boundary Description Stated In Deed
@@ -438,7 +438,7 @@ e-Stamp certificate page.
 Visible fields:
 
 - Government of Uttarakhand e-Stamp
-- Certificate no. appears to read: **IN-UK62527425290074V**
+- Certificate no.: **IN-UK62527425290074V**
 - Certificate issued date / time: **10-Jul-2023 03:21 PM**
 - Account reference: **NONACC (SV) / uk1210004 / VIKAS NAGAR / UK-DH**
 - Unique doc reference: **SUBIN-UKUK121000431155053623568V**
@@ -453,7 +453,7 @@ Visible fields:
 - Stamp vendor stamp/signature: **अनिल कुमार सैनी**, Stamp Vendor, तहसील विकासनगर
 - Bottom-right printed code: **JD 0039938231**
 
-The certificate number is much clearer after crop review, but because a pen stroke passes over the top line, it should still be rechecked against the original if you need exact e-stamp verification.
+Certificate number manually confirmed from user reading: **IN-UK62527425290074V**
 
 ### Page 12
 
@@ -529,7 +529,7 @@ Visible clauses:
 - Clause 6: words used for seller and buyer include heirs, representatives, and successors.
 - “वांछित विवरण” points 1 to 12, including:
   - land outside municipality / nagar panchayat,
-  - more than 8 km from Main Chakrata Road,
+  - more than 8 km from Main Chakrata Road and more than 51 meters from the Dhaulas boundary on the Nanda ki Chowki-Aamwala route,
   - both parties Indian citizens and not SC/ST,
   - no trees / orchard / construction,
   - no prior registered agreement,
@@ -636,18 +636,3 @@ Duplicate / repeat registration endorsement page. Again states registration on *
 - जिल्द 5,266
 - पृष्ठ 377 से 400
 - क्रमांक 5812
-
-## Fields That Need Manual Confirmation
-
-These are the only material fields that remain low-confidence after OCR plus visual reading:
-
-1. **e-Stamp certificate number** on page 11  
-   It now appears to read `IN-UK62527425290074V`, but a pen stroke crosses the line, so recheck from the original if you need exact online e-stamp verification.
-
-2. **Exact “54 meters” recital on page 17**  
-   The line appears to say the land is more than 54 meters from the Dhaulas boundary on the Nanda ki Chowki-Aamwala road stretch, but the scanned line is slightly faint and should be rechecked if you need precise quoting.
-
-3. **Secondary reverse-side ID details and fine-print on non-substantive pages**  
-   These include the back side of the driving licence, fine-print security text, and backside seal pages. They do not affect the core transaction record but could be re-read from a sharper scan if desired.
-
-If you provide corrections for any of the above, this markdown can be revised into a cleaner final reference version.
