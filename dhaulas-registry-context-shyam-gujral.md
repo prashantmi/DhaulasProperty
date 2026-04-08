@@ -22,6 +22,7 @@ Method used: page rendering + OCR + visual verification of substantive pages
 - Copy fee: **₹100**
 - Electronic processing fee: **₹240**
 - Total registration charges shown on presentation page: **₹25,340**
+- Separate annexed slip visible on page 6: **Pachhwadun Bar Association** library contribution / `पुस्तकालय अनुदान` for **₹200**.
 - Property:
   - **Mauza**: Dhaulas
   - **Tehsil**: Vikasnagar
@@ -67,6 +68,22 @@ This matches the remaining land split you described:
 
 Important caveat: this PDF itself is the 10-Jul-2023 deed for the **full 947.80 sq. m. / 1,133.14 sq. yd.** from Rajesh to Shyam. The PDF does **not** itself contain the later separate sale deed by which the **600 sq. yd.** portion was sold onward. The site plan shows the subdivision, but proof of the 600 sq. yd. resale will require the later sale deed / mutation / khatauni trail.
 
+## User-Provided Future Transaction Context
+
+This section is based on your instructions, not on the original registry text.
+
+- Intended buyers:
+  - Prashant Mishra
+  - Manasvi Baxi
+  - Prashant Dwivedi
+- Current owner from whom purchase is proposed: **Shyam Kumar Gujral**
+- Agent involved: **Rajesh Kumar Belwal**
+- Intended purchase description:
+  - remaining land after sale of **600 sq. yd.** from the original **1,133.14 sq. yd.**
+  - two remaining parts:
+    - **262.06 sq. yd.**
+    - **271.08 sq. yd.**
+
 ## Parties
 
 ### Seller / First Party
@@ -110,13 +127,13 @@ Important caveat: this PDF itself is the 10-Jul-2023 deed for the **full 947.80 
 ### Sale Consideration
 
 - **Total sale consideration**: ₹70,00,000
+- Separate non-registry ancillary slip attached in the PDF: **₹200** library contribution to **Pachhwadun Bar Association**.
 
 ### Payment Breakup Stated In Deed
 
 1. **₹50,00,000** by RTGS  
-   Reference shown as: `RTGS-BDBLRS5202307100000111`  
-   Date: 10.07.2023  
-   Note: one or two characters in this RTGS reference are slightly unclear in the scan.
+   Payment line reads: `RTGS-BDBLR52023071000001111`  
+   Date: 10.07.2023
 
 2. **₹19,30,000** by cheque  
    Cheque no.: `000039`  
@@ -143,6 +160,7 @@ The deed says the seller accepted receipt of the entire consideration before the
 - **Coordinates**: Latitude 30.389072, Longitude 78.008637
 - **Road statement in the deed**:
   - Main Chakrata Road distance: more than 8 km
+  - The recital on page 17 also appears to say the land is more than **54 meters** from the Dhaulas boundary on the Nanda ki Chowki-Aamwala road stretch; this line is slightly faint and should be rechecked if you need exact quoting.
   - Circle-rate note: the deed says the land had a road width of more than 5 m and less than 12 m, so 5% extra valuation was applied.
 
 ### Boundary Description Stated In Deed
@@ -344,7 +362,18 @@ System-generated **पक्षकारों का विवरण** table.
 
 ### Page 6
 
-Blank / backside page with only a seal. No substantive text.
+Annexed slip page plus round office seal.
+
+Visible slip details:
+
+- Organization: **Pachhwadun Bar Association**, Vikasnagar, Dehradun, Uttarakhand
+- Period printed: **April 2021 - March 2022**
+- Heading: **पुस्तकालय अनुदान**
+- Receipt / serial no.: **41000**
+- Amount: **₹200**
+- Date field appears blank / not legible
+
+This looks like an ancillary association / library contribution receipt attached with the registry papers, not part of the core stamp duty or registration fee calculation.
 
 ### Page 7
 
@@ -364,7 +393,7 @@ Identity proof page containing images of:
   Aadhaar: 9697 6666 1774  
   DOB visible: 05/08/1975  
   Address shown as Jassowala, Dehradun, Uttarakhand  
-  Pin code in the scan is faint and should be manually reconfirmed if needed.
+  Pin code appears to read **248142**
 
 - Vishal Kumar driving licence  
   DL no.: UK-0720130278406  
@@ -404,6 +433,7 @@ e-Stamp certificate page.
 Visible fields:
 
 - Government of Uttarakhand e-Stamp
+- Certificate no. appears to read: **IN-UK62527425290074V**
 - Certificate issued date / time: **10-Jul-2023 03:21 PM**
 - Account reference: **NONACC (SV) / uk1210004 / VIKAS NAGAR / UK-DH**
 - Unique doc reference: **SUBIN-UKUK121000431155053623568V**
@@ -416,8 +446,9 @@ Visible fields:
 - Stamp duty paid by: **Shyam Kumar Gujral**
 - Stamp duty amount: **₹3,50,500**
 - Stamp vendor stamp/signature: **अनिल कुमार सैनी**, Stamp Vendor, तहसील विकासनगर
+- Bottom-right printed code: **JD 0039938231**
 
-The exact certificate number at the top is partly obscured and should be manually reconfirmed if required for a final legal note.
+The certificate number is much clearer after crop review, but because a pen stroke passes over the top line, it should still be rechecked against the original if you need exact e-stamp verification.
 
 ### Page 12
 
@@ -425,6 +456,7 @@ Standard e-Stamp warning page.
 
 Substantive text visible:
 
+- Purple verification stamp visible: **Verified and Locked / Sub-Registrar-II / Vikasnagar**
 - The contents of the certificate can be verified and authenticated world-wide by the public at `www.shcilestamp.com` or authorised collection centres.
 - Any alteration renders the certificate invalid.
 - Use of an altered certificate without all security features constitutes a criminal offence.
@@ -454,7 +486,7 @@ Continuation of substantive deed (page number `(3)`).
 Important clauses visible:
 
 1. Payment details:
-   - ₹50,00,000 by RTGS
+   - ₹50,00,000 by RTGS, payment line reading `RTGS-BDBLR52023071000001111`
    - ₹19,30,000 by cheque no. 000039, Bandhan Bank, Dehradun
    - ₹70,000 by TDS
    - Seller acknowledges full receipt before Sub-Registrar; no balance remains.
@@ -605,15 +637,15 @@ Duplicate / repeat registration endorsement page. Again states registration on *
 These are the only material fields that remain low-confidence after OCR plus visual reading:
 
 1. **e-Stamp certificate number** on page 11  
-   The line is partly obscured by scan quality and pen/stamp overlap.
+   It now appears to read `IN-UK62527425290074V`, but a pen stroke crosses the line, so recheck from the original if you need exact online e-stamp verification.
 
 2. **Exact “Village / Location for Index” and “Village / Location / Road Selected for Circle Rate List” strings** on page 3  
    The main sense is visible, but the exact typed Hindi line is faint.
 
-3. **Exact RTGS reference string** on page 15  
-   It appears as `RTGS-BDBLRS5202307100000111`, but one or two characters should be manually confirmed if you need a litigation-grade note.
+3. **Exact “54 meters” recital on page 17**  
+   The line appears to say the land is more than 54 meters from the Dhaulas boundary on the Nanda ki Chowki-Aamwala road stretch, but the scanned line is slightly faint and should be rechecked if you need precise quoting.
 
-4. **Fine-print / stamp text on backside pages**  
-   These are non-substantive seal pages and do not affect the core transaction record.
+4. **Secondary reverse-side ID details and fine-print on non-substantive pages**  
+   These include the back side of the driving licence, fine-print security text, and backside seal pages. They do not affect the core transaction record but could be re-read from a sharper scan if desired.
 
 If you provide corrections for any of the above, this markdown can be revised into a cleaner final reference version.
