@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1122" height="1298" viewBox="0 0 1122 1298" role="img" aria-labelledby="title desc">
+  <title id="title">Scaled schematic of Dhaulas remaining plots</title>
+  <desc id="desc">Edge-true schematic for the 262.06 square yard and 271.08 square yard plots, based on the demarcated lengths visible on the registry map. Angles are inferred from the scan and are not a licensed survey.</desc>
+  <style>
+    .title { font: 700 28px Georgia, serif; fill: #1f2937; }
+    .subtitle { font: 400 15px Georgia, serif; fill: #4b5563; }
+    .plot-b { fill: #dbeafe; stroke: #1d4ed8; stroke-width: 3; }
+    .plot-c { fill: #fde68a; stroke: #b45309; stroke-width: 3; }
+    .road { fill: #e5e7eb; stroke: #6b7280; stroke-width: 2; }
+    .boundary { fill: none; stroke: #111827; stroke-width: 2.5; }
+    .shared { stroke: #6d28d9; stroke-width: 3; stroke-dasharray: 10 8; }
+    .edge-label {
+      font: 700 16px Georgia, serif;
+      fill: #111827;
+      text-anchor: middle;
+      dominant-baseline: middle;
+      paint-order: stroke;
+      stroke: #ffffff;
+      stroke-width: 5;
+      stroke-linejoin: round;
+    }
+    .plot-label {
+      font: 700 22px Georgia, serif;
+      fill: #111827;
+      text-anchor: middle;
+    }
+    .plot-sub {
+      font: 400 15px Georgia, serif;
+      fill: #374151;
+      text-anchor: middle;
+    }
+    .note {
+      font: 400 14px Georgia, serif;
+      fill: #374151;
+    }
+    .callout {
+      fill: none;
+      stroke: #111827;
+      stroke-width: 1.8;
+    }
+    .minor {
+      font: 400 13px Georgia, serif;
+      fill: #374151;
+      text-anchor: middle;
+      paint-order: stroke;
+      stroke: #ffffff;
+      stroke-width: 4;
+    }
+  </style>
+
+  <text x="130" y="40" class="title">Scaled Reconstruction of Remaining Dhaulas Plots</text>
+  <text x="130" y="64" class="subtitle">Lengths are drawn to scale from the demarcation. Angles are inferred from the scanned manchitra and should be treated as a planning schematic, not a licensed survey.</text>
+
+  <rect x="80" y="907" width="980" height="250" rx="18" class="road" />
+  <text x="570" y="1045" class="plot-label" style="font-size:24px;">25'-0" Wide Road</text>
+
+  <!-- Plot B: 262.06 sq yd -->
+  <polygon class="plot-b" points="130,907.3 442.5,907.3 362.02,239.64 203.27,89.74 196.85,80.0" />
+  <!-- Plot C: 271.08 sq yd -->
+  <polygon class="plot-c" points="442.5,907.3 621.67,907.3 677.96,379.46 587.51,148.18 362.02,239.64" />
+
+  <!-- Shared boundary -->
+  <line x1="442.5" y1="907.3" x2="362.02" y2="239.64" class="shared" />
+
+  <!-- West sold-portion boundary reference -->
+  <line x1="130" y1="907.3" x2="196.85" y2="80.0" class="boundary" />
+  <text x="120" y="495" class="minor" transform="rotate(-90 120 495)">Boundary with sold 600 sq yd portion</text>
+
+  <!-- Plot labels -->
+  <text x="288" y="515" class="plot-label">262.06 sq yd</text>
+  <text x="288" y="540" class="plot-sub">Approx. 2,358.57 sq ft</text>
+  <text x="288" y="565" class="plot-sub">Middle strip parcel</text>
+
+  <text x="525" y="505" class="plot-label">271.08 sq yd</text>
+  <text x="525" y="530" class="plot-sub">Approx. 2,439.78 sq ft</text>
+  <text x="525" y="555" class="plot-sub">Eastern irregular parcel</text>
+
+  <!-- Edge labels -->
+  <text x="286.2" y="882" class="edge-label">31'-3"</text>
+  <text x="390" y="573" class="edge-label" transform="rotate(-96.9 390 573)">67'-3"</text>
+  <text x="286" y="163" class="edge-label" transform="rotate(-136.6 286 163)">21'-10"</text>
+  <text x="156" y="495" class="edge-label" transform="rotate(-85.4 156 495)">83'-0"</text>
+
+  <text x="532" y="882" class="edge-label">17'-11"</text>
+  <text x="650" y="644" class="edge-label" transform="rotate(-83.9 650 644)">53'-1"</text>
+  <text x="633" y="264" class="edge-label" transform="rotate(-111.4 633 264)">24'-10"</text>
+  <text x="475" y="194" class="edge-label" transform="rotate(157.9 475 194)">24'-4"</text>
+
+  <!-- 1'-2" callout -->
+  <path d="M210 92 L255 55 L315 55" class="callout" />
+  <text x="315" y="51" class="minor">1'-2"</text>
+
+  <!-- Legend / note -->
+  <text x="130" y="1205" class="note">Reading used for this reconstruction:</text>
+  <text x="130" y="1227" class="note">262.06 sq yd plot edges shown from the demarcation: 31'-3", 67'-3", 21'-10", 1'-2", 83'-0".</text>
+  <text x="130" y="1249" class="note">271.08 sq yd plot edges shown from the demarcation: 17'-11", 53'-1", 24'-10", 24'-4", and the shared 67'-3" line.</text>
+  <text x="130" y="1271" class="note">Important: the registry sketch does not provide enough angle data to derive a unique cadastral survey drawing. This SVG keeps the labeled lengths to scale and preserves the scan's general geometry.</text>
+</svg>

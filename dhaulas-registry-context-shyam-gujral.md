@@ -183,6 +183,12 @@ The annexed map on the last substantive page shows:
 
 ![Cropped plot map from page 23](images/dhaulas-plot-complete-map-crop.png)
 
+### Scaled Reconstruction
+
+Note: the registry sketch gives side lengths but does not provide a full survey coordinate set or all interior angles. The diagram below keeps the visible edge lengths to scale and infers the angles from the scanned manchitra, so it should be treated as a planning schematic rather than a licensed survey drawing.
+
+![Scaled schematic of the 262.06 sq yd and 271.08 sq yd plots](images/dhaulas-remaining-plots-scale-schematic.svg)
+
 - One **600.00 sq. yd.** block labeled **5,400.00 sq. ft. / 600.00 sq. yd.**
 - One **262.06 sq. yd.** block labeled **2,358.57 sq. ft. / 262.06 sq. yd.**
 - One **271.08 sq. yd.** block labeled **2,439.78 sq. ft. / 271.08 sq. yd.**
