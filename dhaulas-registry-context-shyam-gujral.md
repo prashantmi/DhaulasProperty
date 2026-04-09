@@ -181,6 +181,8 @@ Boundary caution:
 
 The annexed map on the last substantive page shows:
 
+![Cropped plot map from page 23](images/dhaulas-plot-complete-map-crop.png)
+
 - One **600.00 sq. yd.** block labeled **5,400.00 sq. ft. / 600.00 sq. yd.**
 - One **262.06 sq. yd.** block labeled **2,358.57 sq. ft. / 262.06 sq. yd.**
 - One **271.08 sq. yd.** block labeled **2,439.78 sq. ft. / 271.08 sq. yd.**
