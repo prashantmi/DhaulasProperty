@@ -294,6 +294,87 @@ The deed further states:
   - **क्रमांक 5812**
   - **Date of registration: 10 Jul 2023**
 
+## 
+
+
+📍 LOCATION ANALYSIS (Your Exact Plot)
+•	Coordinates: 30.388949, 78.008911
+•	Area: Chaksaliya Wala / Dhaulas, Vikasnagar Tehsil
+
+From public data:
+•	Both Dhaulas and Chaksaliya Wala are officially classified as:
+•	Villages under Gram Panchayat (Haria Wala Kalan)  ￼
+
+👉 That means:
+•	They are governed under Panchayati Raj (rural system)
+•	NOT under municipal bodies
+
+🚨 MOST IMPORTANT EVIDENCE (FROM YOUR OWN REGISTRY)
+
+Your sale deed clearly states:
+
+“land is outside municipal / nagar panchayat limits”  ￼
+
+👉 This is critical legal evidence.
+•	This declaration is part of registered deed
+•	Seller legally confirms:
+•	❌ Not in Nagar Panchayat
+•	❌ Not in Nagar Palika
+•	❌ Not in municipal area
+
+
+🧠 FINAL JURISDICTION STATUS
+
+✅ Your land falls under:
+•	Gram Panchayat (Rural area)
+•	Tehsil: Vikasnagar
+•	Governance: Panchayati Raj system
+
+
+🔴 LEGAL IMPLICATION (VERY IMPORTANT)
+
+Because this is rural land, NOT urban:
+
+👉 ✔️ 2025 land law FULLY applies
+
+👉 Which means:
+•	Outsider cannot freely buy agricultural land here
+
+
+
+🔍 7. Hidden Insight (Most people miss this)
+
+Your registry says:
+•	“Residential land”
+•	But:
+•	Village + rural + no municipal
+
+👉 This usually means ONE of these:
+
+Possibility A (Best case)
+•	Proper 143 conversion already done
+
+⸻
+
+Possibility B (Very common risk)
+•	Land is still:
+•	Agricultural in revenue records
+•	But sold as “residential plot”
+
+👉 This is the most common illegal pattern in Dehradun outskirts
+
+
+✅ 10. What you MUST verify now (Non-negotiable)
+
+Ask seller:
+1.	Section 143 order copy
+2.	Updated Khatauni showing land-use = non-agricultural
+3.	Latest mutation after subdivision
+4.	Whether layout is approved by MDDA
+
+
+
+
 ## Page-By-Page Content Record
 
 ### Page 1

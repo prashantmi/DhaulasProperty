@@ -1,0 +1,806 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_b1fde5c184e1a3aa62b46a6141beebfe {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+    <script src="https://cdn.jsdelivr.net/npm/leaflet.fullscreen@3.0.0/Control.FullScreen.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet.fullscreen@3.0.0/Control.FullScreen.css"/>
+    <script src="https://cdn.jsdelivr.net/gh/ljagis/leaflet-measure@2.1.7/dist/leaflet-measure.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ljagis/leaflet-measure@2.1.7/dist/leaflet-measure.min.css"/>
+    <script src="https://cdn.jsdelivr.net/gh/ardhi/Leaflet.MousePosition/src/L.Control.MousePosition.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ardhi/Leaflet.MousePosition/src/L.Control.MousePosition.min.css"/>
+</head>
+<body>
+    
+    
+<div style="position: fixed; top: 12px; right: 12px; z-index: 9999; background: white; border: 2px solid #555;
+            border-radius: 6px; padding: 10px 12px; width: 330px; font-size: 12px; line-height: 1.35; box-shadow: 0 1px 6px #777;">
+  <b>Dhaulas road-corridor screening map</b><br>
+  Plot point: <b>30.388922, 78.008800</b><br><br>
+  <b>Critical caveat:</b> dashed/dotted corridors are <u>schematic</u>, not NHAI DPR, chainage, land-acquisition (3A), or cadastral boundaries.<br><br>
+  The straight-line distance from your point to the dashed anchor-to-anchor 2026 schematic is about <b>4.7 km</b>. This is <u>not</u> a defensible distance to the future highway until the official centreline is published.<br><br>
+  Use the layer control to switch between OpenStreetMap and satellite imagery, and toggle the 2024 CMP concept.
+</div>
+    
+            <div class="folium-map" id="map_b1fde5c184e1a3aa62b46a6141beebfe" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_b1fde5c184e1a3aa62b46a6141beebfe = L.map(
+                "map_b1fde5c184e1a3aa62b46a6141beebfe",
+                {
+                    center: [30.388922, 78.0088],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 12,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+            L.control.scale().addTo(map_b1fde5c184e1a3aa62b46a6141beebfe);
+
+            
+
+        
+    
+            var tile_layer_b21043a93af8d35aa36c7020296b0185 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 18,
+  "maxNativeZoom": 18,
+  "noWrap": false,
+  "attribution": "\u00a9 OpenStreetMap contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_b21043a93af8d35aa36c7020296b0185.addTo(map_b1fde5c184e1a3aa62b46a6141beebfe);
+        
+    
+            var tile_layer_69d868830b52c909aac2a6bb5b8f75e6 = L.tileLayer(
+                "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
+                {
+  "minZoom": 0,
+  "maxZoom": 18,
+  "maxNativeZoom": 18,
+  "noWrap": false,
+  "attribution": "Tiles \u00a9 Esri \u2014 Source: Esri, Maxar, Earthstar Geographics, and the GIS User Community",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_69d868830b52c909aac2a6bb5b8f75e6.addTo(map_b1fde5c184e1a3aa62b46a6141beebfe);
+        
+    
+            var marker_a241ef37663fef1539ac11d7331912be = L.marker(
+                [30.388922, 78.0088],
+                {
+}
+            ).addTo(map_b1fde5c184e1a3aa62b46a6141beebfe);
+        
+    
+            var icon_ca8a74fde3786d5736eddc6d0fd427cd = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_681b059d29d7fc67f0e67645768bbce0 = L.popup({
+  "maxWidth": 360,
+});
+
+        
+            
+                var html_b8ab235386dbfb41a821405fb461b9c2 = $(`<div id="html_b8ab235386dbfb41a821405fb461b9c2" style="width: 100.0%; height: 100.0%;"><b>Your Google Maps point</b><br>30.388922, 78.008800<br><b>Important:</b> This is the point from your shared Maps link, not a cadastral plot boundary.</div>`)[0];
+                popup_681b059d29d7fc67f0e67645768bbce0.setContent(html_b8ab235386dbfb41a821405fb461b9c2);
+            
+        
+
+        marker_a241ef37663fef1539ac11d7331912be.bindPopup(popup_681b059d29d7fc67f0e67645768bbce0)
+        ;
+
+        
+    
+    
+            marker_a241ef37663fef1539ac11d7331912be.bindTooltip(
+                `<div>
+                     Your plot / Evergreen City reference point
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_a241ef37663fef1539ac11d7331912be.setIcon(icon_ca8a74fde3786d5736eddc6d0fd427cd);
+            
+    
+            var feature_group_7f29582fde8f6d88c50f5ab0c54a50ae = L.featureGroup(
+                {
+}
+            );
+        
+    
+            var circle_42a49ab3491d5ed9c107492d7ea8aca9 = L.circle(
+                [30.388922, 78.0088],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 2}
+            ).addTo(feature_group_7f29582fde8f6d88c50f5ab0c54a50ae);
+        
+    
+            circle_42a49ab3491d5ed9c107492d7ea8aca9.bindTooltip(
+                `<div>
+                     1 km straight-line radius from plot
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_37be723ab3eaac0058f12de5a5f9f5e2 = L.circle(
+                [30.388922, 78.0088],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3000, "stroke": true, "weight": 2}
+            ).addTo(feature_group_7f29582fde8f6d88c50f5ab0c54a50ae);
+        
+    
+            circle_37be723ab3eaac0058f12de5a5f9f5e2.bindTooltip(
+                `<div>
+                     3 km straight-line radius from plot
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_9aa1ab6f46f26b7455fe0fbb36bf694f = L.circle(
+                [30.388922, 78.0088],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5000, "stroke": true, "weight": 2}
+            ).addTo(feature_group_7f29582fde8f6d88c50f5ab0c54a50ae);
+        
+    
+            circle_9aa1ab6f46f26b7455fe0fbb36bf694f.bindTooltip(
+                `<div>
+                     5 km straight-line radius from plot
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            feature_group_7f29582fde8f6d88c50f5ab0c54a50ae.addTo(map_b1fde5c184e1a3aa62b46a6141beebfe);
+        
+    
+            var feature_group_9d65a9a7c00f4098f98d39afae4a9071 = L.featureGroup(
+                {
+}
+            );
+        
+    
+            var circle_marker_fe43822fe29f25aaf36689797c60b816 = L.circleMarker(
+                [30.33174, 77.96209],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 2}
+            ).addTo(feature_group_9d65a9a7c00f4098f98d39afae4a9071);
+        
+    
+        var popup_026f179980838492950838ff71d4c1a9 = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_681df86105c920c2b65e5b25a1e458de = $(`<div id="html_681df86105c920c2b65e5b25a1e458de" style="width: 100.0%; height: 100.0%;"><b>Prem Nagar</b><br>30.331740, 77.962090<br>Straight-line distance from plot: <b>7.78 km</b></div>`)[0];
+                popup_026f179980838492950838ff71d4c1a9.setContent(html_681df86105c920c2b65e5b25a1e458de);
+            
+        
+
+        circle_marker_fe43822fe29f25aaf36689797c60b816.bindPopup(popup_026f179980838492950838ff71d4c1a9)
+        ;
+
+        
+    
+    
+            circle_marker_fe43822fe29f25aaf36689797c60b816.bindTooltip(
+                `<div>
+                     Prem Nagar — 7.8 km straight-line from plot
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_b85c102ecd0aac4acbedffb8b906c8ba = L.circleMarker(
+                [30.38863, 77.94584],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 2}
+            ).addTo(feature_group_9d65a9a7c00f4098f98d39afae4a9071);
+        
+    
+        var popup_a09d6a71cc85082b2ce7aef041e94391 = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_a9bdc81afd0ac772db42b6094b5639f5 = $(`<div id="html_a9bdc81afd0ac772db42b6094b5639f5" style="width: 100.0%; height: 100.0%;"><b>Manduwala</b><br>30.388630, 77.945840<br>Straight-line distance from plot: <b>6.04 km</b></div>`)[0];
+                popup_a09d6a71cc85082b2ce7aef041e94391.setContent(html_a9bdc81afd0ac772db42b6094b5639f5);
+            
+        
+
+        circle_marker_b85c102ecd0aac4acbedffb8b906c8ba.bindPopup(popup_a09d6a71cc85082b2ce7aef041e94391)
+        ;
+
+        
+    
+    
+            circle_marker_b85c102ecd0aac4acbedffb8b906c8ba.bindTooltip(
+                `<div>
+                     Manduwala — 6.0 km straight-line from plot
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_1723ae223172819aaf817f468fb7d2c4 = L.circleMarker(
+                [30.37795, 77.97794],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 2}
+            ).addTo(feature_group_9d65a9a7c00f4098f98d39afae4a9071);
+        
+    
+        var popup_36f5f7c7d1dc0cbd657a2f2e31f41eb9 = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_052904007a1f123ec5dda0ffa07a7aa6 = $(`<div id="html_052904007a1f123ec5dda0ffa07a7aa6" style="width: 100.0%; height: 100.0%;"><b>Paundha / Pondha</b><br>30.377950, 77.977940<br>Straight-line distance from plot: <b>3.20 km</b></div>`)[0];
+                popup_36f5f7c7d1dc0cbd657a2f2e31f41eb9.setContent(html_052904007a1f123ec5dda0ffa07a7aa6);
+            
+        
+
+        circle_marker_1723ae223172819aaf817f468fb7d2c4.bindPopup(popup_36f5f7c7d1dc0cbd657a2f2e31f41eb9)
+        ;
+
+        
+    
+    
+            circle_marker_1723ae223172819aaf817f468fb7d2c4.bindTooltip(
+                `<div>
+                     Paundha / Pondha — 3.2 km straight-line from plot
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_4b2c2486a1046b09362d3f3d15b529f4 = L.circleMarker(
+                [30.36037, 77.98551],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 2}
+            ).addTo(feature_group_9d65a9a7c00f4098f98d39afae4a9071);
+        
+    
+        var popup_839481050d72790cf9548f11e7c9c0af = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_87fef2701cfff69818c448619044a93f = $(`<div id="html_87fef2701cfff69818c448619044a93f" style="width: 100.0%; height: 100.0%;"><b>Phulsani</b><br>30.360370, 77.985510<br>Straight-line distance from plot: <b>3.88 km</b></div>`)[0];
+                popup_839481050d72790cf9548f11e7c9c0af.setContent(html_87fef2701cfff69818c448619044a93f);
+            
+        
+
+        circle_marker_4b2c2486a1046b09362d3f3d15b529f4.bindPopup(popup_839481050d72790cf9548f11e7c9c0af)
+        ;
+
+        
+    
+    
+            circle_marker_4b2c2486a1046b09362d3f3d15b529f4.bindTooltip(
+                `<div>
+                     Phulsani — 3.9 km straight-line from plot
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_57fd89d124df9f2008968f6047f9f904 = L.circleMarker(
+                [30.34447, 77.9143],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 2}
+            ).addTo(feature_group_9d65a9a7c00f4098f98d39afae4a9071);
+        
+    
+        var popup_b14f6355079992bf385a6b3b27587a21 = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_c0d1d38e341b8e0c30cdbfbe6b9ca41a = $(`<div id="html_c0d1d38e341b8e0c30cdbfbe6b9ca41a" style="width: 100.0%; height: 100.0%;"><b>Jhajra</b><br>30.344470, 77.914300<br>Straight-line distance from plot: <b>10.33 km</b></div>`)[0];
+                popup_b14f6355079992bf385a6b3b27587a21.setContent(html_c0d1d38e341b8e0c30cdbfbe6b9ca41a);
+            
+        
+
+        circle_marker_57fd89d124df9f2008968f6047f9f904.bindPopup(popup_b14f6355079992bf385a6b3b27587a21)
+        ;
+
+        
+    
+    
+            circle_marker_57fd89d124df9f2008968f6047f9f904.bindTooltip(
+                `<div>
+                     Jhajra — 10.3 km straight-line from plot
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_f742e2c62942ef551db92fd82d0e5461 = L.circleMarker(
+                [30.43076, 77.99195],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 2}
+            ).addTo(feature_group_9d65a9a7c00f4098f98d39afae4a9071);
+        
+    
+        var popup_ef0da3d857e0081a8933af413aba4136 = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_876e336b2f88d3044f54077d5e4ed62e = $(`<div id="html_876e336b2f88d3044f54077d5e4ed62e" style="width: 100.0%; height: 100.0%;"><b>Bakarna</b><br>30.430760, 77.991950<br>Straight-line distance from plot: <b>4.92 km</b></div>`)[0];
+                popup_ef0da3d857e0081a8933af413aba4136.setContent(html_876e336b2f88d3044f54077d5e4ed62e);
+            
+        
+
+        circle_marker_f742e2c62942ef551db92fd82d0e5461.bindPopup(popup_ef0da3d857e0081a8933af413aba4136)
+        ;
+
+        
+    
+    
+            circle_marker_f742e2c62942ef551db92fd82d0e5461.bindTooltip(
+                `<div>
+                     Bakarna — 4.9 km straight-line from plot
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_5af4472e94b85b0b5d1e76dddb5c800f = L.circleMarker(
+                [30.43619, 77.97415],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 2}
+            ).addTo(feature_group_9d65a9a7c00f4098f98d39afae4a9071);
+        
+    
+        var popup_78f93f1ed84c800a9f8f4dc9f5b038b4 = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_7e499ff67a50cbcb6476893ef64f711d = $(`<div id="html_7e499ff67a50cbcb6476893ef64f711d" style="width: 100.0%; height: 100.0%;"><b>Thangaon</b><br>30.436190, 77.974150<br>Straight-line distance from plot: <b>6.22 km</b></div>`)[0];
+                popup_78f93f1ed84c800a9f8f4dc9f5b038b4.setContent(html_7e499ff67a50cbcb6476893ef64f711d);
+            
+        
+
+        circle_marker_5af4472e94b85b0b5d1e76dddb5c800f.bindPopup(popup_78f93f1ed84c800a9f8f4dc9f5b038b4)
+        ;
+
+        
+    
+    
+            circle_marker_5af4472e94b85b0b5d1e76dddb5c800f.bindTooltip(
+                `<div>
+                     Thangaon — 6.2 km straight-line from plot
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_c62576d066d7037869c802157fa8b3c8 = L.circleMarker(
+                [30.4477453, 77.9953032],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 2}
+            ).addTo(feature_group_9d65a9a7c00f4098f98d39afae4a9071);
+        
+    
+        var popup_a085673a1a16b52e13387bd186789643 = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_844c05b0fc866cd59ead833adc435fb1 = $(`<div id="html_844c05b0fc866cd59ead833adc435fb1" style="width: 100.0%; height: 100.0%;"><b>Chaskot area (approx.; low-confidence locality point)</b><br>30.447745, 77.995303<br>Straight-line distance from plot: <b>6.67 km</b><br><i>Coordinate is only an approximate geographic proxy; do not use for land acquisition decisions.</i></div>`)[0];
+                popup_a085673a1a16b52e13387bd186789643.setContent(html_844c05b0fc866cd59ead833adc435fb1);
+            
+        
+
+        circle_marker_c62576d066d7037869c802157fa8b3c8.bindPopup(popup_a085673a1a16b52e13387bd186789643)
+        ;
+
+        
+    
+    
+            circle_marker_c62576d066d7037869c802157fa8b3c8.bindTooltip(
+                `<div>
+                     Chaskot area (approx.; low-confidence locality point) — 6.7 km straight-line from plot
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_c249d18bf627ddad0e50ea16141d73f6 = L.circleMarker(
+                [30.45863, 78.0229],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 2}
+            ).addTo(feature_group_9d65a9a7c00f4098f98d39afae4a9071);
+        
+    
+        var popup_f7add5904b8e654d868f5b1ceaa06c0d = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_6aabf92bfd70ae50d4134eae167415b8 = $(`<div id="html_6aabf92bfd70ae50d4134eae167415b8" style="width: 100.0%; height: 100.0%;"><b>George Everest / Khanij Nagar vicinity (proxy)</b><br>30.458630, 78.022900<br>Straight-line distance from plot: <b>7.87 km</b><br><i>Coordinate is only an approximate geographic proxy; do not use for land acquisition decisions.</i></div>`)[0];
+                popup_f7add5904b8e654d868f5b1ceaa06c0d.setContent(html_6aabf92bfd70ae50d4134eae167415b8);
+            
+        
+
+        circle_marker_c249d18bf627ddad0e50ea16141d73f6.bindPopup(popup_f7add5904b8e654d868f5b1ceaa06c0d)
+        ;
+
+        
+    
+    
+            circle_marker_c249d18bf627ddad0e50ea16141d73f6.bindTooltip(
+                `<div>
+                     George Everest / Khanij Nagar vicinity (proxy) — 7.9 km straight-line from plot
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_84e2d119e74e5456c33cb1727ca80dfc = L.circleMarker(
+                [30.4598, 78.0643],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 2}
+            ).addTo(feature_group_9d65a9a7c00f4098f98d39afae4a9071);
+        
+    
+        var popup_029c57cf8f629b7855eb31e6bcbab262 = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_4df67e9828223a75c6153c89c93f76af = $(`<div id="html_4df67e9828223a75c6153c89c93f76af" style="width: 100.0%; height: 100.0%;"><b>Mussoorie Library / Gandhi Chowk vicinity</b><br>30.459800, 78.064300<br>Straight-line distance from plot: <b>9.51 km</b></div>`)[0];
+                popup_029c57cf8f629b7855eb31e6bcbab262.setContent(html_4df67e9828223a75c6153c89c93f76af);
+            
+        
+
+        circle_marker_84e2d119e74e5456c33cb1727ca80dfc.bindPopup(popup_029c57cf8f629b7855eb31e6bcbab262)
+        ;
+
+        
+    
+    
+            circle_marker_84e2d119e74e5456c33cb1727ca80dfc.bindTooltip(
+                `<div>
+                     Mussoorie Library / Gandhi Chowk vicinity — 9.5 km straight-line from plot
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            feature_group_9d65a9a7c00f4098f98d39afae4a9071.addTo(map_b1fde5c184e1a3aa62b46a6141beebfe);
+        
+    
+            var feature_group_5d87731b6544e26bae82dd294c1654c5 = L.featureGroup(
+                {
+}
+            );
+        
+    
+            var poly_line_21ed299e43a231c2d6c85a0dea01f027 = L.polyline(
+                [[30.34447, 77.9143], [30.4477453, 77.9953032], [30.45863, 78.0229], [30.4598, 78.0643]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": "10 8", "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(feature_group_5d87731b6544e26bae82dd294c1654c5);
+        
+    
+        var popup_7cbedf173711743422005406349db1ef = L.popup({
+  "maxWidth": 430,
+});
+
+        
+            
+                var html_5fac9df4d7cd4a61028fe5539e0c6851 = $(`<div id="html_5fac9df4d7cd4a61028fe5539e0c6851" style="width: 100.0%; height: 100.0%;"><b>Not an official alignment.</b><br>This dashed line only joins named route anchors reported in 2026 coverage quoting NHAI. No public DPR/3A cadastral centreline was found in the research. The true road may deviate materially.</div>`)[0];
+                popup_7cbedf173711743422005406349db1ef.setContent(html_5fac9df4d7cd4a61028fe5539e0c6851);
+            
+        
+
+        poly_line_21ed299e43a231c2d6c85a0dea01f027.bindPopup(popup_7cbedf173711743422005406349db1ef)
+        ;
+
+        
+    
+    
+            poly_line_21ed299e43a231c2d6c85a0dea01f027.bindTooltip(
+                `<div>
+                     SCHEMATIC: Jhajra → Chaskot → Khanij Nagar/George Everest → Library/Gandhi Chowk
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            feature_group_5d87731b6544e26bae82dd294c1654c5.addTo(map_b1fde5c184e1a3aa62b46a6141beebfe);
+        
+    
+            var feature_group_4f4f6fb21bcc7fe6482e8ac021773aed = L.featureGroup(
+                {
+}
+            );
+        
+    
+            var poly_line_b04b4dd4f1b9ae18dc1dd3781b8fe40d = L.polyline(
+                [[30.43076, 77.99195], [30.43619, 77.97415], [30.45863, 78.0229]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": "3 8", "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.75, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(feature_group_4f4f6fb21bcc7fe6482e8ac021773aed);
+        
+    
+        var popup_1dc587f5bf5493bea96a63cbf686e0ad = L.popup({
+  "maxWidth": 430,
+});
+
+        
+            
+                var html_693c513c78739ca761444835d82cde45 = $(`<div id="html_693c513c78739ca761444835d82cde45" style="width: 100.0%; height: 100.0%;"><b>Official planning evidence, but not a surveyed centreline.</b><br>The 2024 Comprehensive Mobility Plan says Code 1 passes through Bakarna and Thangaon connecting Township and Khanij Nagar (Cloud End), with 12 m ROW and arterial hierarchy. This dotted line simply connects locality points for orientation.</div>`)[0];
+                popup_1dc587f5bf5493bea96a63cbf686e0ad.setContent(html_693c513c78739ca761444835d82cde45);
+            
+        
+
+        poly_line_b04b4dd4f1b9ae18dc1dd3781b8fe40d.bindPopup(popup_1dc587f5bf5493bea96a63cbf686e0ad)
+        ;
+
+        
+    
+    
+            poly_line_b04b4dd4f1b9ae18dc1dd3781b8fe40d.bindTooltip(
+                `<div>
+                     CMP Code 1 descriptive anchors: Bakarna → Thangaon → Khanij Nagar (Cloud End)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_d9910eb3e11cfc5f3d009257ba90a7bb = L.polyline(
+                [[30.38863, 77.94584], [30.37795, 77.97794]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": "5 7", "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(feature_group_4f4f6fb21bcc7fe6482e8ac021773aed);
+        
+    
+        var popup_60d8b0561c455e60a10f4091803fdb5c = L.popup({
+  "maxWidth": 430,
+});
+
+        
+            
+                var html_dcbd95398da19a410ab35224651d40c4 = $(`<div id="html_dcbd95398da19a410ab35224651d40c4" style="width: 100.0%; height: 100.0%;"><b>2024 CMP Code 52.</b><br>Official description: Manduwala area to Pondha Road; 24 m ROW, sub-arterial. This line merely joins locality points; it is not the official road centreline.</div>`)[0];
+                popup_60d8b0561c455e60a10f4091803fdb5c.setContent(html_dcbd95398da19a410ab35224651d40c4);
+            
+        
+
+        poly_line_d9910eb3e11cfc5f3d009257ba90a7bb.bindPopup(popup_60d8b0561c455e60a10f4091803fdb5c)
+        ;
+
+        
+    
+    
+            poly_line_d9910eb3e11cfc5f3d009257ba90a7bb.bindTooltip(
+                `<div>
+                     CMP Code 52: Manduwala area → Pondha Road (24 m ROW, sub-arterial) — schematic
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_07dfd57043258576d696af61fc81fdae = L.polyline(
+                [[30.37795, 77.97794], [30.36037, 77.98551]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": "5 7", "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(feature_group_4f4f6fb21bcc7fe6482e8ac021773aed);
+        
+    
+        var popup_7bd7925c3a97d48a14c56ca10b58dbf1 = L.popup({
+  "maxWidth": 430,
+});
+
+        
+            
+                var html_7e9b995406fb129a93fb8bc121cabb1e = $(`<div id="html_7e9b995406fb129a93fb8bc121cabb1e" style="width: 100.0%; height: 100.0%;"><b>2024 CMP Code 53.</b><br>Official description: Pondha Road to Phulsani; 24 m ROW, sub-arterial. This line merely joins locality points; it is not the official road centreline.</div>`)[0];
+                popup_7bd7925c3a97d48a14c56ca10b58dbf1.setContent(html_7e9b995406fb129a93fb8bc121cabb1e);
+            
+        
+
+        poly_line_07dfd57043258576d696af61fc81fdae.bindPopup(popup_7bd7925c3a97d48a14c56ca10b58dbf1)
+        ;
+
+        
+    
+    
+            poly_line_07dfd57043258576d696af61fc81fdae.bindTooltip(
+                `<div>
+                     CMP Code 53: Pondha Road → Phulsani (24 m ROW, sub-arterial) — schematic
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            L.control.fullscreen(
+                {
+  "position": "topleft",
+  "title": "Full Screen",
+  "titleCancel": "Exit Full Screen",
+  "forceSeparateButton": false,
+}
+            ).addTo(map_b1fde5c184e1a3aa62b46a6141beebfe);
+        
+    
+            var measure_control_f4492271c394e4e9375f230259a4dc2a = new L.Control.Measure(
+                {
+  "position": "topleft",
+  "primaryLengthUnit": "kilometers",
+  "secondaryLengthUnit": "meters",
+  "primaryAreaUnit": "sqmeters",
+  "secondaryAreaUnit": "acres",
+});
+            map_b1fde5c184e1a3aa62b46a6141beebfe.addControl(measure_control_f4492271c394e4e9375f230259a4dc2a);
+
+            // Workaround for using this plugin with Leaflet>=1.8.0
+            // https://github.com/ljagis/leaflet-measure/issues/171
+            L.Control.Measure.include({
+                _setCaptureMarkerIcon: function () {
+                    // disable autopan
+                    this._captureMarker.options.autoPanOnFocus = false;
+                    // default function
+                    this._captureMarker.setIcon(
+                        L.divIcon({
+                            iconSize: this._map.getSize().multiplyBy(2)
+                        })
+                    );
+                },
+            });
+
+        
+    
+            var mouse_position_65b1d3b03efbfeb2f8a93161b1fbdcd4 = new L.Control.MousePosition(
+                {
+  "position": "bottomleft",
+  "separator": " | ",
+  "emptyString": "Unavailable",
+  "lngFirst": false,
+  "numDigits": 5,
+  "prefix": "Lat/Lon:",
+}
+            );
+            mouse_position_65b1d3b03efbfeb2f8a93161b1fbdcd4.options["latFormatter"] =
+                undefined;
+            mouse_position_65b1d3b03efbfeb2f8a93161b1fbdcd4.options["lngFormatter"] =
+                undefined;
+            map_b1fde5c184e1a3aa62b46a6141beebfe.addControl(mouse_position_65b1d3b03efbfeb2f8a93161b1fbdcd4);
+        
+    
+            var layer_control_5c1927cc7cfaa512e24cd2ab2c1683a0_layers = {
+                base_layers : {
+                    "OpenStreetMap" : tile_layer_b21043a93af8d35aa36c7020296b0185,
+                    "Satellite (Esri)" : tile_layer_69d868830b52c909aac2a6bb5b8f75e6,
+                },
+                overlays :  {
+                    "1 / 3 / 5 km rings from plot" : feature_group_7f29582fde8f6d88c50f5ab0c54a50ae,
+                    "Reference localities / endpoints" : feature_group_9d65a9a7c00f4098f98d39afae4a9071,
+                    "2026 Jhajra\u2013Mussoorie route \u2014 SCHEMATIC only" : feature_group_5d87731b6544e26bae82dd294c1654c5,
+                    "2024 CMP Code 1 anchors \u2014 SCHEMATIC only" : feature_group_4f4f6fb21bcc7fe6482e8ac021773aed,
+                },
+            };
+            let layer_control_5c1927cc7cfaa512e24cd2ab2c1683a0 = L.control.layers(
+                layer_control_5c1927cc7cfaa512e24cd2ab2c1683a0_layers.base_layers,
+                layer_control_5c1927cc7cfaa512e24cd2ab2c1683a0_layers.overlays,
+                {
+  "position": "topright",
+  "collapsed": false,
+  "autoZIndex": true,
+}
+            ).addTo(map_b1fde5c184e1a3aa62b46a6141beebfe);
+
+        
+</script>
+</html>

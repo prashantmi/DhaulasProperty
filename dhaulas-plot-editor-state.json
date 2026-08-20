@@ -1,0 +1,236 @@
+{
+  "pixelsPerFoot": 5.5,
+  "showBackground": true,
+  "backgroundOpacity": 0.6,
+  "selectedShapeId": "shape-1775843067739",
+  "shapes": [
+    {
+      "id": "portion-b",
+      "name": " 262.06 sq yd",
+      "fill": "rgba(37, 99, 235, 0.22)",
+      "stroke": "#1d4ed8",
+      "officialSqYd": 262.06,
+      "officialSqFt": 2358.57,
+      "vertices": [
+        {
+          "x": 524.8974914550781,
+          "y": 51.581878662109375
+        },
+        {
+          "x": 673.6454162597656,
+          "y": 182.68789672851562
+        },
+        {
+          "x": 600.1258850097656,
+          "y": 547.293701171875
+        },
+        {
+          "x": 435.0664367675781,
+          "y": 499.52117919921875
+        }
+      ],
+      "edges": [
+        {
+          "name": "Top edge (unmarked on scan)",
+          "targetFeet": 35,
+          "locked": false
+        },
+        {
+          "name": "Shared boundary",
+          "targetFeet": 67.25,
+          "locked": false
+        },
+        {
+          "name": "Road frontage",
+          "targetFeet": 31.25,
+          "locked": false
+        },
+        {
+          "name": "Boundary with sold portion",
+          "targetFeet": 83,
+          "locked": false
+        }
+      ]
+    },
+    {
+      "id": "portion-c",
+      "name": " 271.08 sq yd",
+      "fill": "rgba(245, 158, 11, 0.24)",
+      "stroke": "#b45309",
+      "officialSqYd": 271.08,
+      "officialSqFt": 2439.78,
+      "vertices": [
+        {
+          "x": 675.3272094726562,
+          "y": 178.20309448242188
+        },
+        {
+          "x": 834.3888549804688,
+          "y": 305.378173828125
+        },
+        {
+          "x": 898.8173217773438,
+          "y": 384.713134765625
+        },
+        {
+          "x": 928.1779174804688,
+          "y": 438.90887451171875
+        },
+        {
+          "x": 685.5463256835938,
+          "y": 601.5165405273438
+        },
+        {
+          "x": 604.2797241210938,
+          "y": 546.1387329101562
+        }
+      ],
+      "edges": [
+        {
+          "name": "Upper diagonal",
+          "targetFeet": 21.833333333333332,
+          "locked": false
+        },
+        {
+          "name": "Outer edge 2",
+          "targetFeet": 24.333333333333332,
+          "locked": false
+        },
+        {
+          "name": "Outer edge 3",
+          "targetFeet": 24.833333333333332,
+          "locked": false
+        },
+        {
+          "name": "Road-adjacent long edge",
+          "targetFeet": 53.083333333333336,
+          "locked": false
+        },
+        {
+          "name": "Lower connector",
+          "targetFeet": 17.916666666666668,
+          "locked": false
+        },
+        {
+          "name": "Shared boundary",
+          "targetFeet": 67.25,
+          "locked": false
+        }
+      ]
+    },
+    {
+      "id": "shape-1775842891133",
+      "name": "Shape 3",
+      "fill": "rgba(244, 63, 94, 0.18)",
+      "stroke": "#be123c",
+      "officialSqYd": null,
+      "officialSqFt": null,
+      "vertices": [
+        {
+          "x": 1171.9576416015625,
+          "y": 754.8573608398438
+        },
+        {
+          "x": 1291.5206298828125,
+          "y": 428.3790588378906
+        },
+        {
+          "x": 1094.6556396484375,
+          "y": 258.5174255371094
+        },
+        {
+          "x": 1007.0873413085938,
+          "y": 706.5579833984375
+        }
+      ],
+      "edges": [
+        {
+          "name": "Inserted edge",
+          "targetFeet": null,
+          "locked": false
+        },
+        {
+          "name": "Inserted edge",
+          "targetFeet": null,
+          "locked": false
+        },
+        {
+          "name": "Inserted edge",
+          "targetFeet": null,
+          "locked": false
+        },
+        {
+          "name": "Inserted edge",
+          "targetFeet": null,
+          "locked": false
+        }
+      ]
+    },
+    {
+      "id": "shape-1775843067739",
+      "name": "Shape 4",
+      "fill": "rgba(14, 165, 233, 0.18)",
+      "stroke": "#0284c7",
+      "officialSqYd": null,
+      "officialSqFt": null,
+      "vertices": [
+        {
+          "x": 1292.1893310546875,
+          "y": 428.4263610839844
+        },
+        {
+          "x": 1383.2630615234375,
+          "y": 504.8907775878906
+        },
+        {
+          "x": 1493.924072265625,
+          "y": 651.8624267578125
+        },
+        {
+          "x": 1250.1241455078125,
+          "y": 816.1248168945312
+        },
+        {
+          "x": 1234.5623779296875,
+          "y": 793.6467895507812
+        },
+        {
+          "x": 1172.3155517578125,
+          "y": 753.8779907226562
+        }
+      ],
+      "edges": [
+        {
+          "name": "Inserted edge",
+          "targetFeet": null,
+          "locked": false
+        },
+        {
+          "name": "Inserted edge",
+          "targetFeet": null,
+          "locked": false
+        },
+        {
+          "name": "Inserted edge",
+          "targetFeet": null,
+          "locked": false
+        },
+        {
+          "name": "Inserted edge",
+          "targetFeet": null,
+          "locked": false
+        },
+        {
+          "name": "Inserted edge",
+          "targetFeet": null,
+          "locked": false
+        },
+        {
+          "name": "Inserted edge",
+          "targetFeet": null,
+          "locked": false
+        }
+      ]
+    }
+  ]
+}

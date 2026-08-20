@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dhaulas Plot Shape Editor</title>
+  <link rel="stylesheet" href="plot-shape-editor.css">
+</head>
+<body>
+  <div class="app-shell">
+    <header class="topbar">
+      <div class="title-block">
+        <h1>Dhaulas Plot Shape Editor</h1>
+        <p>
+          Drag corners directly over the registry scan, lock edge lengths when you want them preserved,
+          draw new closed bodies, and read the current area live in square feet and square yards.
+        </p>
+      </div>
+      <div class="toolbar">
+        <button id="editModeButton" class="toolbar-button is-active" type="button">Edit Shapes</button>
+        <button id="drawModeButton" class="toolbar-button" type="button">Draw Polygon</button>
+        <button id="finishPolygonButton" class="toolbar-button" type="button" disabled>Finish Polygon</button>
+        <button id="cancelPolygonButton" class="toolbar-button" type="button" disabled>Cancel Draft</button>
+        <button id="resetButton" class="toolbar-button toolbar-button--warn" type="button">Reset</button>
+        <button id="exportButton" class="toolbar-button" type="button">Export JSON</button>
+        <button id="importButton" class="toolbar-button" type="button">Import JSON</button>
+      </div>
+    </header>
+
+    <div class="workspace">
+      <aside class="sidebar">
+        <section class="panel">
+          <h2>Instructions</h2>
+          <ul class="instruction-list">
+            <li>Drag a corner handle to reshape the selected polygon.</li>
+            <li>Drag inside a polygon to move the whole shape without changing edge lengths.</li>
+            <li>Double-click an edge to insert a new corner on that edge.</li>
+            <li>In draw mode, click points on the scan to create a new closed body.</li>
+            <li>Lock an edge in the inspector to preserve its target length while dragging adjacent corners.</li>
+          </ul>
+        </section>
+
+        <section class="panel">
+          <h2>Background</h2>
+          <label class="field checkbox-field">
+            <input id="showBackgroundCheckbox" type="checkbox" checked>
+            <span>Show registry scan</span>
+          </label>
+          <label class="field">
+            <span>Background opacity</span>
+            <input id="backgroundOpacityInput" type="range" min="0" max="1" step="0.05" value="0.9">
+          </label>
+        </section>
+
+        <section class="panel">
+          <h2>Scale</h2>
+          <label class="field">
+            <span>Pixels per foot</span>
+            <input id="pixelsPerFootInput" type="number" min="0.1" step="0.01">
+          </label>
+          <div class="button-row">
+            <button id="estimateScaleButton" class="toolbar-button toolbar-button--small" type="button">
+              Estimate From Target Lengths
+            </button>
+          </div>
+          <p class="panel-note">
+            Area is computed from the drawn screen geometry divided by this scale squared.
+          </p>
+        </section>
+
+        <section class="panel">
+          <h2>Shapes</h2>
+          <div id="shapeList" class="shape-list"></div>
+          <div class="button-row">
+            <button id="deleteShapeButton" class="toolbar-button toolbar-button--small toolbar-button--warn" type="button">
+              Delete Selected Shape
+            </button>
+          </div>
+        </section>
+
+        <section class="panel">
+          <h2>Selected Shape</h2>
+          <label class="field">
+            <span>Name</span>
+            <input id="shapeNameInput" type="text" autocomplete="off">
+          </label>
+          <div id="shapeSummary" class="summary-card"></div>
+          <div class="button-row">
+            <button id="lockKnownEdgesButton" class="toolbar-button toolbar-button--small" type="button">
+              Lock Known Edges
+            </button>
+            <button id="unlockEdgesButton" class="toolbar-button toolbar-button--small" type="button">
+              Unlock All
+            </button>
+          </div>
+        </section>
+
+        <section class="panel">
+          <h2>Edges</h2>
+          <div class="table-wrap">
+            <table class="edge-table">
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>Edge</th>
+                  <th>Current</th>
+                  <th>Target ft</th>
+                  <th>Lock</th>
+                </tr>
+              </thead>
+              <tbody id="edgeTableBody"></tbody>
+            </table>
+          </div>
+        </section>
+      </aside>
+
+      <main class="stage-panel">
+        <div class="stage-frame">
+          <svg id="editorSvg" viewBox="0 0 1653 1219" aria-label="Editable plot shape overlay">
+            <image
+              id="backgroundImage"
+              href="images/dhaulas-plot-complete-map-crop.png"
+              x="0"
+              y="0"
+              width="1653"
+              height="1219"
+              preserveAspectRatio="xMidYMid meet"
+            />
+            <g id="shapeLayer"></g>
+            <g id="draftLayer"></g>
+            <g id="handleLayer"></g>
+          </svg>
+        </div>
+      </main>
+    </div>
+  </div>
+
+  <input id="importInput" type="file" accept=".json,application/json" hidden>
+  <script src="plot-shape-editor.js"></script>
+</body>
+</html>
